@@ -8,6 +8,7 @@ span.undefined { color:red; }
 .inproceedings { background-color: #F49136; }
 .article { background-color: #F44336; }
 .inbook { background-color: #eaa; }
+.incollection { background-color: #3350A5; }
 .phdthesis { background-color: #999; }
 .unpublished { background-color: #C92C7C; }
 .mastersthesis { background-color: #eea; }
