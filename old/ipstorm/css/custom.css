@@ -1,0 +1,149 @@
+#piediv {
+  width: 35%;
+  height: 325px;
+  float: right;
+  zoom: 76%;
+  margin: 140px 0px 0px 0px;
+}
+
+#worlddiv {
+  width: 65%;
+  height: 450px;
+  float: left;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 26px;
+  margin: 0;
+}
+
+a {
+  color: #F44336;
+}
+
+.navbar {
+  background-color: #0b0b0b;
+  margin-bottom: 0;
+  border-radius: 0;
+  height: 75px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 450px
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+  padding-top: 20px;
+  height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+  /* background-color: #555; */
+  /* color: white; */
+  padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {
+    height: auto;
+  }
+}
+
+blockquote {
+  font-size: 1.1em;
+  line-height: 1.6em;
+  padding: 20px 20px 20px 40px;
+  border-left: none;
+  position: relative;
+  text-indent: -19px
+}
+
+section#block_content {
+  min-height: 400px;
+  padding-top: 40px;
+  text-align: left
+}
+
+blockquote p {
+  font-size: 1em
+}
+
+blockquote:before,
+blockquote:after {
+  font-family: Arial, serif;
+  font-size: 2.5em;
+  vertical-align: middle;
+  line-height: 0
+}
+
+blockquote:before {
+  content: open-quote;
+  margin-right: 4px
+}
+
+blockquote:after {
+  content: close-quote;
+  margin-left: 3px
+}
+
+blockquote.blockstyle,
+blockquote.style2 {
+  background: #fff;
+  font-style: italic
+}
+
+blockquote.blockstyle p,
+blockquote.style2 p {
+  display: inline
+}
+
+blockquote.blockstyle {
+  border-left: 3px solid #F44336;
+  position: relative
+}
+
+blockquote.blockstyle>span.triangle:before {
+  text-indent: 0;
+  content: "\f0da";
+  font-family: FontAwesome;
+  color: #F44336;
+  position: absolute;
+  left: -1px;
+  top: 50%;
+  margin-top: -11px;
+  font-style: normal
+}
+
+blockquote.blockstyle:before,
+blockquote.blockstyle:after {
+  color: #F44336
+}
+
+blockquote.blockstyle.border-color-blue {
+  border-color: #01b7f2
+}
+
+blockquote.blockstyle.border-color-blue>span.triangle:before {
+  color: #01b7f2
+}
+
+blockquote.blockstyle.border-color-yellow {
+  border-color: #fdb714
+}
+
+blockquote.blockstyle.border-color-yellow>span.triangle:before {
+  color: #fdb714
+}
