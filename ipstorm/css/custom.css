@@ -1,5 +1,6 @@
+/* styling of map elements */
 #piediv {
-  width: 35%;
+  width: 100%;
   height: 325px;
   float: right;
   zoom: 76%;
@@ -7,9 +8,20 @@
 }
 
 #worlddiv {
-  width: 65%;
+  width: 88%;
   height: 450px;
   float: left;
+}
+
+/* custom styling of ipstorm's header */
+.header{
+  background: none;
+  padding: 0px 0;
+}
+
+/* custom styling of ipstorm h1 title */
+.innertitle{
+  margin: 40px 40px;
 }
 
 /* Remove the navbar's default margin-bottom and rounded borders */
@@ -33,9 +45,10 @@ a {
 }
 
 /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-.row.content {
+/* commented due to conflicts */
+/*.row.content {
   height: 450px
-}
+}*/
 
 /* Set gray background color and 100% height */
 .sidenav {
@@ -51,6 +64,9 @@ footer {
 }
 
 /* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 997px) 
+
+
 @media screen and (max-width: 767px) {
   .sidenav {
     height: auto;
