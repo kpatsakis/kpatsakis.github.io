@@ -1,13 +1,49 @@
 <html lang="en">
 
 <head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, maximum-scale=1">
   <title>IPStorm Tracker</title>
+
   <link rel="icon" href="../favicon.png" type="image/png">
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="shortcut icon" href="../favicon.ico" type="img/x-icon">
+
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+
+  <link href="../css/style.css" rel="stylesheet" type="text/css">
+  <link href="../css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="../css/animate.css" rel="stylesheet" type="text/css">
+  <link href="../css/bib-publication-list.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.1/css/academicons.min.css" integrity="sha512-b1ASx0WHgVFL5ZQhTgiPWX+68KjS38Jk87jg7pe+qC7q9YkEtFq0z7xCglv7qGIs/68d3mAp+StfC8WKC5SSAg==" crossorigin="anonymous" />
+  <!--[if IE]><style type="text/css">.pie {behavior:url(PIE.htc);}</style><![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js" integrity="sha512-8qmis31OQi6hIRgvkht0s6mCOittjMa9GMqtK9hes5iEQBQE/Ca6yGE5FsW36vyipGoWQswBj/QBm2JR086Rkw==" crossorigin="anonymous"></script>
+  <!-- https://cdnjs.com/libraries/ScrollToFixed -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollToFixed/1.0.8/jquery-scrolltofixed-min.js" integrity="sha512-ohXbv1eFvjIHMXG/jY057oHdBZ/jhthP1U3jES/nYyFdc9g6xBpjDjKIacGoPG6hY//xVQeqpWx8tNjexXWdqA==" crossorigin="anonymous"></script>
+  <!-- https://www.jsdelivr.com/package/npm/jquery.easing -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery.easing@1.4.1/jquery.easing.min.js" integrity="sha256-H3cjtrm/ztDeuhCN9I4yh4iN2Ybx/y1RM7rMmAesA0k=" crossorigin="anonymous"></script>
+
+  <!-- https://cdnjs.com/libraries/jquery.isotope -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js" integrity="sha512-E/yP5UiPXb6VelX+dFLuUD+1IZw/Kz7tMncFTYbtoNSCdRZPFoGN3jZ2p27VUxHEkhbPiLuZhZpVEXxk9wAHCQ==" crossorigin="anonymous"></script>
+  <!-- https://cdnjs.com/libraries/wow -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous"></script>
+
+  <!-- https://cdnjs.com/libraries/classie -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classie/1.0.1/classie.min.js" integrity="sha512-sOMf7h9Uvkeku+gv6cIDNhpgvcunE9pAf3A/ezNcRG7//ZZv7nDm6ut69qAXTIU5J9JTbZ+PfrwqstYrq2ZnQQ==" crossorigin="anonymous"></script>
+
+<!-- <script type="text/javascript" src="../js/bib-list-min.js"></script> -->
+
+  <!-- =======================================================
+    Theme Name: Knight
+    Theme URL: https://bootstrapmade.com/knight-free-bootstrap-theme/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+======================================================= -->
+
   <!-- amcharts -->
   <script src="https://cdn.amcharts.com/lib/4/core.js"></script>
   <script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
@@ -19,36 +55,47 @@
   </head>
 
 <body>
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="https://www.cs.unipi.gr/kpatsak"><img src="https://www.cs.unipi.gr/kpatsak/img/logo.png" height="50px"></a>
-      </div>
-      <div class="collapse navbar-collapse" id="myNavbar">
-        <ul class="nav navbar-nav">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="mailto:kpatsak[at]unipi[dot]gr">Contact</a></li>
-        </ul>
-      </div>
+
+  <header class="header" id="header">
+
+  </header>
+  <!--header-end-->
+
+  <nav class="main-nav-outer" id="test">
+    <!--main-nav-start-->
+    <div class="container">
+      <ul class="main-nav">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#Portfolio">R&amp;D projects</a></li>
+        <li class="small-logo"><a href="#header"><img src="../img/small-logo.png" alt=""></a></li>
+        <li><a href="#publications">publications</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact">&nbsp;</a></li>
+        <li><a href="#contact">&nbsp;</a></li>
+      </ul>
+      <a class="res-nav_click" href="#"><i class="fa-bars"></i></a>
     </div>
   </nav>
+
   <div class="container-fluid text-center">
     <div class="row content">
       <div class="col-sm-2 sidenav">
 
       </div>
       <div class="col-sm-8 text-left">
-        <h1>IPStorm Tracker</h1>
+        <h1 class="innertitle">IPStorm Tracker</h1>
         <section class="container">
-          <script src="js/pie.js"></script>
-          <div id="piediv"></div>
-          <script src="js/world.js"></script>
-          <div id="worlddiv"></div>
+          <div class="row">
+            <div class="col-md-7">       
+              <script src="js/world.js"></script>
+              <div id="worlddiv"></div>
+            </div>           
+            <div class="col-md-5">
+              <script src="js/pie.js"></script>
+              <div id="piediv"></div>
+            </div>
+          </div>
         </section>
 
         <p>The <a href="https://ipfs.io/">InterPlanetary File System (IPFS)</a> is an advanced distributed P2P system for retrieving and sharing content on the Internet. Contrary to the client-server that is used by the HTTP and the inherent
@@ -75,7 +122,13 @@
       <div class="col-sm-2 sidenav"></div>
     </div>
   </div>
+<!--   <footer class="footer">
+    <div class="container">
+      <div class="footer-logo"><a href="#"><img src="img/footer-logo.png" alt=""></a></div>
+      <span class="copyright">Copyleft &copy; C.Patsakis 2017</span>
 
+    </div>
+  </footer> -->
   <footer class="container-fluid text-center">
     Powered by:
     <center>
@@ -88,6 +141,29 @@
       The above reflect only the author’s view and the Commission is not responsible for any use that may be made of the information it contains.
     </center>
   </footer>
+
+  <script type="text/javascript">
+    $(window).load(function() {
+
+      $('.main-nav li a, .servicelink').bind('click', function(event) {
+        var $anchor = $(this);
+
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top - 102
+        }, 1500, 'easeInOutExpo');
+        /*
+        if you don't want to use the easing effects:
+        $('html, body').stop().animate({
+          scrollTop: $($anchor.attr('href')).offset().top
+        }, 1000);
+        */
+        if ($(window).width() < 768) {
+          $('.main-nav').hide();
+        }
+        event.preventDefault();
+      });
+    })
+  </script> 
 </body>
 
 </html>
