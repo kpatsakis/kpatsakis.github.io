@@ -386,6 +386,12 @@ color: #fff;
 }
 
 
+/* Publications
+---------------------------------*/
+i.fa-link, i.fa-book{
+    font-family: 'FontAwesome'
+}
+
 /* Portfolio
 ---------------------------------*/
 .Portfolio-nav{
