@@ -389,7 +389,7 @@ color: #fff;
 /* Publications
 ---------------------------------*/
 i.fa-link, i.fa-book{
-    font-family: 'FontAwesome'
+    font-family: 'FontAwesome';
 }
 
 /* Portfolio
