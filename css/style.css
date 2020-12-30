@@ -750,6 +750,7 @@ border: 2px solid #fff;
 	background:#222222;
 	border-radius:50%;
 	transition:all 0.3s ease-in-out;
+	font-family: 'FontAwesome';	
 }
 .social-link li a:hover, .social-link li a:focus{
 	text-decoration:none;
