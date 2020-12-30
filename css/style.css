@@ -385,6 +385,11 @@ color: #fff;
 	color: #111;
 }
 
+/* Publications
+---------------------------------*/
+i.fa-link, i.fa-book{
+    font-family: 'FontAwesome';
+}
 
 /* Portfolio
 ---------------------------------*/
