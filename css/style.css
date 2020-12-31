@@ -486,6 +486,7 @@ img {
 
 /* Clients
 ---------------------------------*/
+
 .client-part{
 	background:url(../img/section-bg1.jpg) center center no-repeat;
 	background-size:cover;
@@ -750,7 +751,7 @@ border: 2px solid #fff;
 	background:#222222;
 	border-radius:50%;
 	transition:all 0.3s ease-in-out;
-	font-family: 'FontAwesome';	
+	font-family: 'FontAwesome';
 }
 
 .social-link li a i:before{
