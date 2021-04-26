@@ -9,10 +9,10 @@ title.marginBottom = 30;
 // Add data
 chart.data = [{
   "status": "Benign",
-  "perc": 1572562
+  "perc": 1594176
 }, {
   "status": "Malicious",
-  "perc": 85310
+  "perc": 85744
 }];
 
 // Add and configure Series
