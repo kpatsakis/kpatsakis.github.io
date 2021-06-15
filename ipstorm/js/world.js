@@ -41,7 +41,7 @@ polygonSeries.heatRules.push({
 // Add expectancy data
 //
 // chart.dataSource.url ="country_stats.json";
-polygonSeries.data = [{'id': 'CN', 'value': 54}, {'id': 'BG', 'value': 2}, {'id': 'US', 'value': 20}, {'id': 'KR', 'value': 39}, {'id': 'HK', 'value': 117}, {'id': 'BR', 'value': 17}, {'id': 'TW', 'value': 30}, {'id': 'RU', 'value': 16}, {'id': 'MY', 'value': 6}, {'id': 'FR', 'value': 12}, {'id': 'UA', 'value': 20}, {'id': 'ES', 'value': 9}, {'id': 'ZA', 'value': 2}, {'id': 'SE', 'value': 16}, {'id': 'MO', 'value': 2}, {'id': 'CA', 'value': 16}, {'id': 'CW', 'value': 1}, {'id': 'GU', 'value': 1}, {'id': 'DE', 'value': 4}, {'id': 'PA', 'value': 2}, {'id': 'VN', 'value': 3}, {'id': 'VE', 'value': 7}, {'id': 'SG', 'value': 2}, {'id': 'FI', 'value': 1}, {'id': 'LV', 'value': 3}, {'id': 'SI', 'value': 4}, {'id': 'MD', 'value': 1}, {'id': 'BS', 'value': 2}, {'id': 'BZ', 'value': 2}, {'id': 'CL', 'value': 3}, {'id': 'GE', 'value': 1}, {'id': 'LT', 'value': 2}, {'id': 'CO', 'value': 1}, {'id': 'JP', 'value': 2}, {'id': 'IE', 'value': 2}, {'id': 'MK', 'value': 1}, {'id': 'MX', 'value': 2}, {'id': 'DK', 'value': 1}, {'id': 'NL', 'value': 1}, {'id': 'KZ', 'value': 1}];
+polygonSeries.data = [];
 
 // Zoom control
 chart.zoomControl = new am4maps.ZoomControl();
